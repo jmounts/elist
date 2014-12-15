@@ -46,3 +46,12 @@ table {
 .transparent-75 {
 	opacity: .75;
 }
+
+.list > h1 {
+  color: white;
+  font-family: sans-serif;
+}
+
+p {
+  font-family: sans-serif;
+}

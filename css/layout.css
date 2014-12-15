@@ -19,7 +19,7 @@
 .command {
 	padding-left: auto;
 	padding-right: auto;
-	margin-top: .5em;
+	margin-top: .1em;
 }
 
 .reset {
@@ -43,4 +43,13 @@
 	text-align: center;
 	padding: .5em 0;
 	margin: 0 auto;
+}
+
+.list {
+	background-color: #457461;
+	margin-top: 3em;
+	font-size: 1.5em;
+	padding-top: .2em;
+	padding-bottom: .2em;
+	text-align: center;
 }
