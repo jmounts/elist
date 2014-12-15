@@ -45,11 +45,14 @@
 	margin: 0 auto;
 }
 
-.list {
+.item > li {
 	background-color: #457461;
+	height: 2em;
 	margin-top: 3em;
 	font-size: 1.5em;
 	padding-top: .2em;
 	padding-bottom: .2em;
 	text-align: center;
+ 	color: white;
+  	font-family: sans-serif;
 }
