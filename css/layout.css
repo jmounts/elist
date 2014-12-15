@@ -1,0 +1,41 @@
+.billboard {
+	background-image: url(../images/vegetables.jpg);
+	background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+	text-align: center;
+	padding-top: 2em;
+}
+
+.input {
+	background-color: white;
+	height: 2em;
+	width: 20em;
+}
+
+.command {
+	padding-left: auto;
+	padding-right: auto;
+	margin-top: .5em;
+}
+
+.reset {
+	margin-left: 6em;
+	margin-right: auto;
+	height: 2em;
+	background-color: #663234;
+	color: white;
+	font-size: 1em;
+	text-align: center;
+	padding-top: .5em;
+}
+
+.add {
+	background-color: #457461;
+	width: 2em;
+	height: 2em;
+	color: white;
+}
