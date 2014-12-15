@@ -46,8 +46,3 @@ table {
 .transparent-75 {
 	opacity: .75;
 }
-
-button > p {
-  font-size: 1em;
-  color: white;
-}

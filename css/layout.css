@@ -23,8 +23,9 @@
 }
 
 .reset {
-	margin-left: 6em;
+	margin-left: 0;
 	margin-right: auto;
+	width: 8em;
 	height: 2em;
 	background-color: #663234;
 	color: white;
@@ -35,7 +36,11 @@
 
 .add {
 	background-color: #457461;
-	width: 2em;
+	font-size: 1em;
+	width: 4em;
 	height: 2em;
 	color: white;
+	text-align: center;
+	padding: .5em 0;
+	margin: 0 auto;
 }
