@@ -14,19 +14,24 @@
 		<img src="./images/logo.png" alt="grocery E list">
 	</div>
 	<div class="command row small-centered columns">
-		<div class="input  medium-offset-2 small-5 columns"></div>
+		<div class="input  medium-offset-2 small-9 medium-5 columns"></div>
 		<div class="add medium-5 columns end">
-			<p>+</p>
+			<button class="add-b">+</button>
 		</div>
 		<div class="reset medium-offset-1 medium-2 columns end">
-			<p>reset</p>
+			<button class="reset-b">reset</button>
 		</div>
 	</div>
-	<div>
+	<div class="list">
 		<ul>
 			<li class="row medium-6 small-12 small-centered columns item">
 				<button class="check small-1 columns">☑</button>	
-				<span class="list small-centered columns">Apples</span>
+				<span class="small-centered columns">Apples</span>
+				<button class="delete small-1 columns">×</button>
+			</li>
+			<li class="row medium-6 small-12 small-centered columns item-marked">
+				<button class="uncheck small-1 columns">+</button>	
+				<span class="small-centered columns">Apples</span>
 				<button class="delete small-1 columns">×</button>
 			</li>
 		</ul>

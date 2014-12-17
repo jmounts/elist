@@ -47,6 +47,7 @@ table {
 	opacity: .75;
 }
 
-p {
-  font-family: sans-serif;
+button:hover {
+  opacity: .2;
+  background-color: black;
 }
