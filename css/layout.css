@@ -76,7 +76,6 @@
 	text-align: center;
  	color: white;
   	font-family: sans-serif;
-  	display: none;
 }
 
 .item-marked {
@@ -90,7 +89,6 @@
 	text-align: center;
  	color: #663234;
   	font-family: sans-serif;
-  	display: none;
 }
 
 .check {
