@@ -16,7 +16,7 @@ $(document).ready(function() {
     $('.add-b').click(function() {
         var enter = $('#input').val();
         if (enter.length > 0) {
-            $('<li/>').appendTo('.list').html($('#input').val());
+            $("<li class='item'/>").appendTo('#test').html($('#input').val());
         }
         else
         {
