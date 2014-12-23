@@ -1,16 +1,7 @@
 $(document).ready(function() {
 
 ////Hover Elements////    
-	$('.list').mouseenter(function() {
-		$('.check').show();
-        $('.delete').show();
-        $('.uncheck').show();
-	})
-	.mouseleave(function() {
-		$('.check').hide();
-        $('.delete').hide();
-        $('.uncheck').hide();
-	})
+    $("<li class='item'><button class='check small-1 columns'>☑</button></li>").appendTo("#test").html($("#testtxt").val());
 
 ////Input Items////
     $('.add-b').click(function() {

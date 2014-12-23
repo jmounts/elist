@@ -76,7 +76,7 @@
 	text-align: center;
  	color: white;
   	font-family: sans-serif;
-  	display: none;
+  	/*display: none;*/
 }
 
 .item-marked {
@@ -90,7 +90,7 @@
 	text-align: center;
  	color: #663234;
   	font-family: sans-serif;
-  	display: none;
+  	/*display: none;*/
 }
 
 .check {
@@ -101,7 +101,7 @@
 	margin-left: -.63em;
 	margin-top: -.4em;
 	padding: 0;	
-	display: none;
+	/*display: none;*/
 }
 
 .delete {
