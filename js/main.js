@@ -2,12 +2,18 @@ $(document).ready(function() {
 
 ////Hover Elements////    
 
+////Enter Function////
+    $('#input').keydown(function(event) {
+        if (event.keyCode==13) {
+            $('.add-b').click();
+        }
+    });
 
 ////Input Items////
     $('.add-b').click(function() {
         var enter = $('#input').val();
         if (enter.length > 0) {
-            $('.item').prepend("").html($('#input').val());
+            $('.item').prepend("</li>").html($('#input').val());
             $('.item').show();
             $('.delete').show();
         }
@@ -15,14 +21,6 @@ $(document).ready(function() {
         {
             alert("Forget Something?");
         }    
-    });
-
-
-////Enter Function////
-    $('#input').keydown(function(event) {
-        if (event.keyCode==13){
-            $('.add-b').trigger('click');
-        }
     });
 
 /////Delete////
