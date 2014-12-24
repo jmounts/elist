@@ -6,10 +6,10 @@ $(document).ready(function() {
     var marked = '<li class="row medium-6 small-12 small-centered columns item-marked">'
 
 ////Enter Function////
-    $('#input').keydown(function (enter) {
-        if (enter.keyCode==13) {
+    $('#input').keydown(function (event) {
+        if (event.keyCode == 13) {
             $('.add-b').click();
-        }
+        };
     });
 
 ////Input Items////
@@ -28,8 +28,9 @@ $(document).ready(function() {
         var work = '<li class="row medium-6 small-12 small-centered columns item">'+ checkMark + item + remove + '</li>';
         $('#test').prepend(work);
         $('#input').val('');
-        $('#test p:first-child')
-    }
+        $('#test p:first-child');
+        }
+    });
 
 /////Delete////
     $(document).on("click", ".delete", function(){
@@ -41,4 +42,3 @@ $(document).ready(function() {
         $(".list").empty();
         submissions = 0;
     });
-});
