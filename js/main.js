@@ -21,7 +21,7 @@ $(document).ready(function() {
         } 
         else 
         {
-            alert("Forget something? ..perhaps the apples?");
+            alert("Forget something? ..perhaps the apples?").fadeIn("slow");
             }
         });
     }
