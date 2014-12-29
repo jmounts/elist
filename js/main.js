@@ -14,9 +14,14 @@ $(document).ready(function() {
 
 ////Input Items////
     function getItem() {
-        $('#input').keydown(function (enter) {
-            if (enter.keyCode == 13) {
-                postItem();
+        $('.add-b').click(function () {
+        var strenter = $("#input").val();
+        if ( strenter.length > 0 ) {
+            postItem();
+        } 
+        else 
+        {
+            alert("Forget something?");
             }
         });
     }
@@ -36,6 +41,11 @@ $(document).ready(function() {
     $(document).on("click", ".delete", function(){
         $(this).closest('li').fadeOut(300);
     });
+
+////Check////
+    $(document).on("click", ".check", function(){
+        $(this).closest('li').toggleClass('item-marked');
+});
 
 ////Reset////
     $(document).on("click", ".reset-b", function(){
